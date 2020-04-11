@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    api-member:
+      path: /api-member/**
+      serviceId: member-service
+    
