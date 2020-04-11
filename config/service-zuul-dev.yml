@@ -1,1 +1,11 @@
+zuul:
+  routes:
+    api-member:
+      #当客户端发送请求127.0.0.1:80/api-member开头的转发到会员服务
+      path: /api-member/**
+      serviceId: member-service
+    api-order:
+      #当客户端发送请求127.0.0.1:80/api-order开头的转发到订单服务
+      path: /api-order/**
+      serviceId: order-service
 
