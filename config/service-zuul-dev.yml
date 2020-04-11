@@ -3,4 +3,7 @@ zuul:
     api-member:
       path: /api-member/**
       serviceId: member-service
+    api-order:
+      path: /api-order/**
+      serviceId: order-service   
     
